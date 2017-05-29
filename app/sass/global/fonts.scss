@@ -1,61 +1,34 @@
 @font-face {
-    font-family: 'pf_agora_sans_probold';
-    src: url('../../fonts/pfagorasanspro-bold-webfont.woff2') format('woff2'),
-         url('../../fonts/pfagorasanspro-bold-webfont.woff') format('woff');
+    font-family: 'bookmancregular';
+    src: url('../../fonts/bookmanc-webfont.woff2') format('woff2'),
+         url('../../fonts/bookmanc-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'pf_agora_sans_probold_italic';
-    src: url('../../fonts/pfagorasanspro-bolditalic-webfont.woff2') format('woff2'),
-         url('../../fonts/pfagorasanspro-bolditalic-webfont.woff') format('woff');
+    font-family: 'bookmancbold';
+    src: url('../../fonts/bookmancbold-webfont.woff2') format('woff2'),
+         url('../../fonts/bookmancbold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'pf_agora_sans_proitalic';
-    src: url('../../fonts/pfagorasanspro-italic-webfont.woff2') format('woff2'),
-         url('../../fonts/pfagorasanspro-italic-webfont.woff') format('woff');
+    font-family: 'bookmancbold_italic';
+    src: url('../../fonts/bookmancbolditalic-webfont.woff2') format('woff2'),
+         url('../../fonts/bookmancbolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'pf_agora_sans_prolight';
-    src: url('../../fonts/pfagorasanspro-light-webfont.woff2') format('woff2'),
-         url('../../fonts/pfagorasanspro-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'pf_agora_sans_promedium';
-    src: url('../../fonts/pfagorasanspro-medium-webfont.woff2') format('woff2'),
-         url('../../fonts/pfagorasanspro-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'pf_agora_sans_proregular';
-    src: url('../../fonts/pfagorasanspro-reg-webfont.woff2') format('woff2'),
-         url('../../fonts/pfagorasanspro-reg-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'savoyeregular';
-    src: url('../../fonts/savoye_plain-webfont.woff2') format('woff2'),
-         url('../../fonts/savoye_plain-webfont.woff') format('woff');
+    font-family: 'bookmancitalic';
+    src: url('../../fonts/bookmancitalic-webfont.woff2') format('woff2'),
+         url('../../fonts/bookmancitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

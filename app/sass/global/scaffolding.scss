@@ -19,8 +19,8 @@ body {
   font-size: $font-size-base;
   line-height: $line-height-base;
   color: $main-color;
+  background-color: $body-color;
   -webkit-font-smoothing: antialiased;
-  background: $body-color url("../../img/pattern.png");
 }
 
 .wrapper {
@@ -29,33 +29,12 @@ body {
   height: auto !important;
   @include container-fluid;
   overflow: hidden;
-  padding: 0 5px;
-  max-width: 960px;
+  max-width: 1280px;
 }
 .wrapper:after {
   content: "";
   display: block;
   height: $footer-height;
-
-  @include media(810px) {
-    height: 356px;
-  }
-
-  @include media(719px) {
-    height: 371px;
-  }
-
-  @include media(650px) {
-    height: 396px;
-  }
-
-  @include media(546px) {
-    height: 419px;
-  }
-
-  @include media(420px) {
-    height: 556px;
-  }
 }
 
 .page-footer {
@@ -63,31 +42,6 @@ body {
   width: 100%;
   margin-top: -$footer-height;
   position: relative;
-
-  @include media(810px) {
-    height: 356px;
-    margin-top: -356px;
-  }
-
-  @include media(719px) {
-    height: 371px;
-    margin-top: -371px;
-  }
-
-  @include media(650px) {
-    height: 396px;
-    margin-top: -396px;
-  }
-
-  @include media(546px) {
-    height: 419px;
-    margin-top: -419px;
-  }
-
-  @include media(420px) {
-    height: 556px;
-    margin-top: -556px;
-  }
 }
 
 li {

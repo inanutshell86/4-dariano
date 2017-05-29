@@ -39,7 +39,7 @@ gulp.task("style", function(err) {
 gulp.task("serve", ["style"], function() {
 
     browserSync.init(null, {
-      proxy: "3-goodfood"
+      proxy: "4-dariano"
     });
 
     gulp.watch("app/**/*.scss", ["style"]);

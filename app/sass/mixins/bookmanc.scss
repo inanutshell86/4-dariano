@@ -1,0 +1,18 @@
+@mixin bookmanc($style : regular) {
+  @if $style == regular {
+    font-family: 'bookmancregular';
+  }
+
+  @if $style == bold {
+    font-family: 'bookmancbold';
+  }
+
+  @if $style == bolditalic {
+    font-family: 'bookmancbold_italic';
+  }
+
+  @if $style == italic {
+    font-family: 'bookmancitalic';
+  }
+
+}

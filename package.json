@@ -1,12 +1,12 @@
 {
-  "name": "",
+  "name": "4-dariano",
   "version": "1.0.0",
   "main": "gulpfile.js",
-  "description": "Учебный проект «»",
+  "description": "Учебный проект «4-dariano»",
   "author": "Ihor Khrystiuk",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/inanutshell86/4-dariano"
   },
   "devDependencies": {
     "autoprefixer": "^6.6.1",
