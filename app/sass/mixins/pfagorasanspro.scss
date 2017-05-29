@@ -1,0 +1,29 @@
+@mixin font($style : regular) {
+  @if $style == regular {
+    font-family: "pf_agora_sans_proregular";
+  }
+
+  @if $style == bold {
+    font-family: "pf_agora_sans_probold";
+  }
+
+  @if $style == bolditalic {
+    font-family: "pf_agora_sans_probold_italic";
+  }
+
+  @if $style == italic {
+    font-family: "pf_agora_sans_proitalic";
+  }
+
+  @if $style == light {
+    font-family: "pf_agora_sans_prolight";
+  }
+
+  @if $style == medium {
+    font-family: "pf_agora_sans_promedium";
+  }
+
+  @if $style == savoye {
+    font-family: "savoyeregular";
+  }
+}

@@ -1,0 +1,15 @@
+@mixin clearfix($extend: true) {
+  @if $extend == true {
+      @extend %clearfix;
+  } @else {
+      &::after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+  }
+}
+
+%clearfix {
+  @include clearfix($extend: false);
+}

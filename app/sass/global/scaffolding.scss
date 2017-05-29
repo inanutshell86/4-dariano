@@ -1,0 +1,128 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $base-font-family;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $main-color;
+  -webkit-font-smoothing: antialiased;
+  background: $body-color url("../../img/pattern.png");
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  height: auto !important;
+  @include container-fluid;
+  overflow: hidden;
+  padding: 0 5px;
+  max-width: 960px;
+}
+.wrapper:after {
+  content: "";
+  display: block;
+  height: $footer-height;
+
+  @include media(810px) {
+    height: 356px;
+  }
+
+  @include media(719px) {
+    height: 371px;
+  }
+
+  @include media(650px) {
+    height: 396px;
+  }
+
+  @include media(546px) {
+    height: 419px;
+  }
+
+  @include media(420px) {
+    height: 556px;
+  }
+}
+
+.page-footer {
+  height: $footer-height;
+  width: 100%;
+  margin-top: -$footer-height;
+  position: relative;
+
+  @include media(810px) {
+    height: 356px;
+    margin-top: -356px;
+  }
+
+  @include media(719px) {
+    height: 371px;
+    margin-top: -371px;
+  }
+
+  @include media(650px) {
+    height: 396px;
+    margin-top: -396px;
+  }
+
+  @include media(546px) {
+    height: 419px;
+    margin-top: -419px;
+  }
+
+  @include media(420px) {
+    height: 556px;
+    margin-top: -556px;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease-out;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  bottom: 0;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
