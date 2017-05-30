@@ -27,9 +27,10 @@ body {
   position: relative;
   min-height: 100%;
   height: auto !important;
-  @include container-fluid;
   overflow: hidden;
   max-width: 1280px;
+  margin: 0 auto;
+  background-color: #fff;
 }
 .wrapper:after {
   content: "";
