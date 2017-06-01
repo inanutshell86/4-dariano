@@ -2,6 +2,8 @@
   "name": "4-dariano",
   "dependencies": {
     "normalize-css": "^7.0.0",
-    "jquery": "^3.2.1"
+    "bxslider-4": "^4.2.12",
+    "jquery": "^3.2.1",
+    "jquery-mixitup": "^3.1.11"
   }
 }
