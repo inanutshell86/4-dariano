@@ -15,3 +15,19 @@ window.onclick = function(e) {
     }
   }
 };
+
+// bxSlider settings
+$('.slider__list').bxSlider({
+  minSlides: 7,
+  maxSlides: 7,
+  slideWidth: 50,
+  slideMargin: 10
+});
+
+// Mixitup
+var containerEl = document.querySelector('.catalog__list');
+var mixer = mixitup(containerEl, {
+  selectors: {
+    target: '.catalog__item'
+  }
+});
