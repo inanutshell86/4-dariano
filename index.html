@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Dariano Doors</title>
+
+  <link rel="stylesheet" href="bower/normalize-css/normalize.css">
+  <link rel="stylesheet" href="bower/bxslider-4/dist/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media
+  queries -->
+  <!--[if lt IE9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+  <div class="wrapper">
+    <div class="main-content">
+
+      <header class="page-header">
+        <h1 class="page-header__title  visually-hidden">Dariano Doors is the best choice in door's world</h1>
+
+        <div class="top-panel">
+
+          <div class="top-panel__left">
+            <div class="lang-switcher">
+              <span class="lang-switcher__item  lang-switcher__item--active">Рус</span>
+              <a class="lang-switcher__item" href="#">Eng</a>
+            </div>
+
+            <div class="location">
+              <button class="location__link  location__link--active" href="#">Ульяновск</button>
+              <ul class="location__dropdown">
+                <li class="location__dropdown-item"><a class="location__link" href="#">Moscow</a></li>
+                <li class="location__dropdown-item"><a class="location__link" href="#">Samara</a></li>
+                <li class="location__dropdown-item"><a class="location__link" href="#">Ivanovo</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="logo">
+            <a class="logo__link" href="#">
+              <img class="logo__pic" src="img/logo.png" alt="Dariano logotype">
+            </a>
+          </div>
+
+          <div class="top-panel__right">
+            <div class="contacts">
+              <ul class="contacts__list">
+                <li class="contacts__item">
+                  <a class="contacts__phone" href="tel:+7842290700">+7 8422 <b>790-700</b></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="info">
+              <a class="to-call" href="#">Прошу перезвонить</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-panel">
+          <nav class="main-nav">
+            <ul class="main-nav__list">
+              <li class="main-nav__item"><a class="main-nav__link" href="#">О компании</a></li>
+              <li class="main-nav__item"><a class="main-nav__link  main-nav__link--active" href="#">Каталог</a></li>
+              <li class="main-nav__item"><a class="main-nav__link" href="#">Конфигуратор</a></li>
+              <li class="main-nav__item"><a class="main-nav__link" href="#">Салоны</a></li>
+              <li class="main-nav__item"><a class="main-nav__link" href="#">Акции</a></li>
+              <li class="main-nav__item"><a class="main-nav__link" href="#">Производство</a></li>
+              <li class="main-nav__item"><a class="main-nav__link" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+
+          <div class="consult">
+            <a class="btn  to-expert" href="#">Спросить у эксперта</a>
+          </div>
+        </div>
+      </header>
+
+      <section class="product">
+        <h1 class="product__title">Барбара</h1>
+
+        <div class="product__desc">
+
+          <div class="product__photo">
+            <img class="product__img" src="img/barbara.jpg" alt="Барабара">
+          </div>
+
+          <div class="product__filters  product__filters--left">
+            <div class="product__filters-type-1">
+              <h3 class="product__filter-title">Тип двери</h3>
+
+              <input class="product__filters-input" id="select-type-1" name="radio-set-1" type="radio">
+      				<label class="product__filters-label" for="select-type-1">Глухая</label>
+
+              <input class="product__filters-input" id="select-type-2" name="radio-set-1" type="radio" checked="checked">
+      				<label class="product__filters-label" for="select-type-2">Со стеклом</label>
+            </div>
+
+            <div class="product__filters-type-2">
+              <h3 class="product__filter-title">Высота, мм</h3>
+
+              <input class="product__filters-input" id="select-type-3" name="radio-set-2" type="radio">
+      				<label class="product__filters-label" for="select-type-3">2000</label>
+
+              <input class="product__filters-input" id="select-type-4" name="radio-set-2" type="radio" checked="checked">
+      				<label class="product__filters-label" for="select-type-4">2100</label>
+
+              <input class="product__filters-input" id="select-type-5" name="radio-set-2" type="radio">
+      				<label class="product__filters-label" for="select-type-5">2200</label>
+
+              <input class="product__filters-input" id="select-type-6" name="radio-set-2" type="radio">
+      				<label class="product__filters-label" for="select-type-6">2300</label>
+            </div>
+
+            <div class="product__filters-type-3">
+              <h3 class="product__filter-title">Ширина, мм</h3>
+
+              <input class="product__filters-input" id="select-type-7" name="radio-set-3" type="radio">
+      				<label class="product__filters-label" for="select-type-7">600</label>
+
+              <input class="product__filters-input" id="select-type-8" name="radio-set-3" type="radio" checked="checked">
+      				<label class="product__filters-label" for="select-type-8">700</label>
+
+              <input class="product__filters-input" id="select-type-9" name="radio-set-3" type="radio">
+      				<label class="product__filters-label" for="select-type-9">800</label>
+
+              <input class="product__filters-input" id="select-type-10" name="radio-set-3" type="radio">
+      				<label class="product__filters-label" for="select-type-10">900</label>
+            </div>
+
+            <div class="product__filters-type-4">
+              <h3 class="product__filter-title  visually-hidden">Количество створок</h3>
+
+              <input class="product__filters-input" id="select-type-11" name="radio-set-4" type="radio">
+      				<label class="product__filters-label" for="select-type-11">Две створки</label>
+
+              <input class="product__filters-input" id="select-type-12" name="radio-set-4" type="radio" checked="checked">
+      				<label class="product__filters-label" for="select-type-12">Одна створка</label>
+            </div>
+
+            <div class="product__filters-type-5">
+              <h3 class="product__filter-title  visually-hidden">Развижная система</h3><br>
+
+              <input class="product__filters-input" id="sliding-system" name="sliding-system" type="checkbox">
+              <label class="product__filters-label" for="sliding-system">Устанавливается в раздвижную систему</label>
+            </div>
+
+            <div class="product__filters-type-6">
+              <h3 class="product__filter-title">Фурнитура</h3>
+              <ul class="product__filters-list">
+                <li class="product__filters-item">
+                  <a class="product__filters-link" href="#">
+                    <img class="product__filters-img" src="img/furnitura-1.png" alt="furnitura-1 img">
+                  </a>
+                </li>
+                <li class="product__filters-item">
+                  <a class="product__filters-link" href="#">
+                    <img class="product__filters-img" src="img/furnitura-2.png" alt="furnitura-2 img">
+                  </a>
+                </li>
+                <li class="product__filters-item">
+                  <a class="product__filters-link" href="#">
+                    <img class="product__filters-img" src="img/furnitura-3.png" alt="furnitura-3 img">
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="product__filters  product__filters--right">
+            <div class="product__filters-type-7">
+              <h3 class="product__filter-title">Облицовка</h3>
+
+              <input class="product__filters-input" id="select-type-13" name="radio-set-5" type="radio">
+      				<label class="product__filters-label" for="select-type-13">Шпон</label>
+
+              <input class="product__filters-input" id="select-type-14" name="radio-set-5" type="radio" checked="checked">
+      				<label class="product__filters-label" for="select-type-14">Эмаль</label>
+
+              <input class="product__filters-input" id="select-type-15" name="radio-set-5" type="radio">
+      				<label class="product__filters-label" for="select-type-15">Глянец</label>
+
+              <input class="product__filters-input" id="select-type-16" name="radio-set-5" type="radio">
+      				<label class="product__filters-label" for="select-type-16">Кортекс</label>
+            </div>
+
+            <div class="product__filters-type-8  slider">
+              <h3 class="product__filter-title">Цвет</h3>
+                <ul class="product__filters-list  slider__list">
+                  <li class="product__filters-item"><a class="product__filters-link" href="#"><img class="product__filters-img" src="img/color-1.png" alt="color 1 img"></a></li>
+                  <li class="product__filters-item"><a class="product__filters-link" href="#"><img class="product__filters-img" src="img/color-2.png" alt="color 2 img"></a></li>
+                  <li class="product__filters-item"><a class="product__filters-link" href="#"><img class="product__filters-img" src="img/color-3.png" alt="color 3 img"></a></li>
+                  <li class="product__filters-item"><a class="product__filters-link" href="#"><img class="product__filters-img" src="img/color-4.png" alt="color 4 img"></a></li>
+                  <li class="product__filters-item"><a class="product__filters-link  product__filters-link--active" href="#"><img class="product__filters-img" src="img/color-5.png" alt="color 5 img"></a></li>
+                  <li class="product__filters-item"><a class="product__filters-link" href="#"><img class="product__filters-img" src="img/color-6.png" alt="color 6 img"></a></li>
+                  <li class="product__filters-item"><a class="product__filters-link" href="#"><img class="product__filters-img" src="img/color-7.png" alt="color 7 img"></a></li>
+                  <li class="product__filters-item"><a class="product__filters-link" href="#"><img class="product__filters-img" src="http://placehold.it/54x54" alt="color 1 img"></a></li>
+                  <li class="product__filters-item"><a class="product__filters-link" href="#"><img class="product__filters-img" src="http://placehold.it/54x54" alt="color 2 img"></a></li>
+                  <li class="product__filters-item"><a class="product__filters-link" href="#"><img class="product__filters-img" src="http://placehold.it/54x54" alt="color 3 img"></a></li>
+                  <li class="product__filters-item"><a class="product__filters-link" href="#"><img class="product__filters-img" src="http://placehold.it/54x54" alt="color 4 img"></a></li>
+                  <li class="product__filters-item"><a class="product__filters-link" href="#"><img class="product__filters-img" src="http://placehold.it/54x54" alt="color 5 img"></a></li>
+                  <li class="product__filters-item"><a class="product__filters-link" href="#"><img class="product__filters-img" src="http://placehold.it/54x54" alt="color 6 img"></a></li>
+                  <li class="product__filters-item"><a class="product__filters-link" href="#"><img class="product__filters-img" src="http://placehold.it/54x54" alt="color 7 img"></a></li>
+                </ul>
+            </div>
+
+            <div class="product__filters-type-9">
+              <h3 class="product__filter-title">Стекло</h3>
+                <ul class="product__filters-list">
+                  <li class="product__filters-item">
+                    <a class="product__filters-link" href="#"><img class="product__filters-img" src="img/glass-1.png" alt="glass 1 img"></a>
+                  </li>
+                  <li class="product__filters-item">
+                    <a class="product__filters-link  product__filters-link--active" href="#"><img class="product__filters-img" src="img/glass-2.png" alt="glass 2 img"></a>
+                  </li>
+                  <li class="product__filters-item">
+                    <a class="product__filters-link" href="#"><img class="product__filters-img" src="img/glass-3.png" alt="glass 3 img"></a>
+                  </li>
+                  <li class="product__filters-item">
+                    <a class="product__filters-link" href="#"><img class="product__filters-img" src="img/glass-4.png" alt="glass 4 img"></a>
+                  </li>
+                  <li class="product__filters-item">
+                    <a class="product__filters-link" href="#"><img class="product__filters-img" src="img/glass-5.png" alt="glass 5 img"></a>
+                  </li>
+                </ul>
+            </div>
+
+            <div class="product__filters-type-10">
+              <h3 class="product__filter-title">Капитель и наличники</h3>
+                <ul class="product__filters-list">
+                  <li class="product__filters-item">
+                    <a class="product__filters-link  product__filters-link--active" href="#"><img class="product__filters-img" src="img/kapitel-1.png" alt="kapitel 1 img"></a>
+                  </li>
+                  <li class="product__filters-item">
+                    <a class="product__filters-link" href="#"><img class="product__filters-img" src="img/kapitel-2.png" alt="kapitel 2 img"></a>
+                  </li>
+                  <li class="product__filters-item">
+                    <a class="product__filters-link" href="#"><img class="product__filters-img" src="img/kapitel-3.png" alt="kapitel 3 img"></a>
+                  </li>
+                  <li class="product__filters-item">
+                    <a class="product__filters-link" href="#"><img class="product__filters-img" src="img/kapitel-4.png" alt="kapitel 4 img"></a>
+                  </li>
+                  <li class="product__filters-item">
+                    <a class="product__filters-link" href="#"><img class="product__filters-img" src="img/kapitel-5.png" alt="kapitel 5 img"></a>
+                  </li>
+                </ul>
+            </div>
+
+            <div class="product__filters-type-11">
+              <h3 class="product__filter-title">Багет и филенка</h3>
+                <ul class="product__filters-list">
+                  <li class="product__filters-item">
+                    <a class="product__filters-link  product__filters-link--active" href="#"><img class="product__filters-img" src="img/baget-1.png" alt="baget 1 img"></a>
+                  </li>
+                  <li class="product__filters-item">
+                    <a class="product__filters-link" href="#"><img class="product__filters-img" src="img/baget-2.png" alt="baget 2 img"></a>
+                  </li>
+                  <li class="product__filters-item">
+                    <a class="product__filters-link" href="#"><img class="product__filters-img" src="img/baget-3.png" alt="baget 3 img"></a>
+                  </li>
+                  <li class="product__filters-item">
+                    <a class="product__filters-link" href="#"><img class="product__filters-img" src="img/baget-4.png" alt="baget 4 img"></a>
+                  </li>
+                </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="product__info">
+          <div class="product__price">
+            <span>22 600 руб.<sup>*</sup></span>
+            <p class="product__price-info">
+              <sup>*</sup>цены действительны за стандартное полотно (2000х400,600,700,800).
+              Данная цена действительна для Центрального региона и может меняться в зависимости от региона продаж.
+            </p>
+            <a class="btn  to-buy" href="#">Где купить</a>
+            <a class="btn  to-order" href="#">Заказать</a>
+          </div>
+          <div class="product__add-info">
+            <ul class="product__actions-list">
+              <li class="product__action-item">
+                <a class="product__action-link  to-print" href="#">Распечатать</a>
+              </li>
+              <li class="product__action-item">
+                <a class="product__action-link  to-save" href="#">Сохранить</a>
+              </li>
+              <li class="product__action-item">
+                <a class="product__action-link">Поделиться</a><br>
+                <a class="product__action-link  product__action-link--fb" href="#">Фейсбук</a>
+                <a class="product__action-link  product__action-link--vk" href="#">Вконтакте</a>
+              </li>
+            </ul>
+          </div>
+          <div class="product__model-in-tv">
+            <img class="product__model-img" src="img/model-tv.jpg" alt="model in tv projects">
+          </div>
+        </div>
+
+        <div class="product__gallery">
+          <img class="product__catalog-img" src="img/gallery-1.jpg" alt="gallery 1 pic">
+          <img class="product__catalog-img" src="img/gallery-2.jpg" alt="gallery 2 pic">
+          <img class="product__catalog-img" src="img/gallery-3.jpg" alt="gallery 3 pic">
+          <img class="product__catalog-img" src="img/gallery-4.jpg" alt="gallery 4 pic">
+        </div>
+
+      </section>
+
+      <section class="catalog">
+
+        <h2 class="catalog__title">Другие модели</h2>
+
+        <div class="catalog__tab-filter-list">
+          <button class="catalog__tab-filter-item  catalog__tab-filter-item--active  filter" data-filter="all">All</button>
+          <button class="catalog__tab-filter-item  filter" data-filter=".category-1">Status</button>
+          <button class="catalog__tab-filter-item  filter" data-filter=".category-2">Serial</button>
+          <button class="catalog__tab-filter-item  filter" data-filter=".category-3">Modern</button>
+          <button class="catalog__tab-filter-item  filter" data-filter=".category-4">Glass</button>
+    		</div>
+
+        <div class="catalog__container">
+      		<ul class="catalog__list">
+      			<li class="catalog__item  category-3"><img class="catalog__img" src="img/model-1.jpg" alt="Image 1"><div class="catalog__inside-title">Барбара</div></li>
+            <li class="catalog__item  category-2"><img class="catalog__img" src="img/model-2.jpg" alt="Image 2"><div class="catalog__inside-title">Барбара</div></li>
+            <li class="catalog__item  category-4"><img class="catalog__img" src="img/model-3.jpg" alt="Image 3"><div class="catalog__inside-title">Барбара</div></li>
+            <li class="catalog__item  category-1"><img class="catalog__img" src="img/model-4.jpg" alt="Image 4"><div class="catalog__inside-title">Барбара</div></li>
+            <li class="catalog__item  category-2"><img class="catalog__img" src="img/model-5.jpg" alt="Image 5"><div class="catalog__inside-title">Барбара</div></li>
+            <li class="catalog__item  category-3"><img class="catalog__img" src="img/model-6.jpg" alt="Image 6"><div class="catalog__inside-title">Барбара</div></li>
+            <li class="catalog__item  category-1"><img class="catalog__img" src="img/model-7.jpg" alt="Image 7"><div class="catalog__inside-title">Барбара</div></li>
+            <li class="catalog__item  category-4"><img class="catalog__img" src="img/model-8.jpg" alt="Image 8"><div class="catalog__inside-title">Барбара</div></li>
+            <li class="catalog__item  category-3"><img class="catalog__img" src="img/model-9.jpg" alt="Image 9"><div class="catalog__inside-title">Барбара</div></li>
+            <li class="catalog__item  category-2"><img class="catalog__img" src="img/model-10.jpg" alt="Image 10"><div class="catalog__inside-title">Барбара</div></li>
+            <li class="catalog__item  category-4"><img class="catalog__img" src="img/model-11.jpg" alt="Image 11"><div class="catalog__inside-title">Барбара</div></li>
+            <li class="catalog__item  category-1"><img class="catalog__img" src="img/model-12.jpg" alt="Image 12"><div class="catalog__inside-title">Барбара</div></li>
+      		</ul>
+        </div>
+      </section>
+
+    </div>
+  </div>
+  <footer class="page-footer">
+
+    <div class="page-footer__top-panel">
+      <div class="socials">
+        <ul class="socials__list">
+          <li class="socials__item"><a class="socials__link  socials__link--fb" href="#">Фейсбук</a></li>
+          <li class="socials__item"><a class="socials__link  socials__link--vk" href="#">Вконтакте</a></li>
+          <li class="socials__item"><a class="socials__link  socials__link--instagram" href="#">Инстаграм</a></li>
+        </ul>
+          <a class="to-site" href="#">Войти на сайт</a>
+      </div>
+
+      <div class="footer-nav">
+        <ul class="footer-nav__list">
+          <li class="footer-nav__item"><a class="footer-nav__link" href="#">Рекомендации по уходу</a></li>
+          <li class="footer-nav__item"><a class="footer-nav__link" href="#">Партнерам</a></li>
+          <li class="footer-nav__item"><a class="footer-nav__link" href="#">Сервис</a></li>
+        </ul>
+      </div>
+
+      <div class="search">
+        <form class="search__form">
+          <input class="search__field" type="text" name="query" placeholder="Поиск по сайту">
+          <button class="search__button" type="submit">Найти</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="page-footer__bottom-panel">
+      <div class="page-footer__copyright-text">
+        Dariano © 2014
+      </div>
+
+      <div class="page-footer__subscription">
+        <div class="subscription">
+          <form class="subscription__form">
+            <input class="subscription__field" type="text" name="email" placeholder="Подписаться на новости">
+            <button class="subscription__button" type="submit">Подписаться</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="page-footer__copyright">
+        <p class="page-footer__text">Разработка сайта <br><a href="">ITECH.GROUP</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="bower/jquery/dist/jquery.min.js"></script>
+  <script src="bower/bxslider-4/dist/jquery.bxslider.min.js"></script>
+  <script src="bower/jquery-mixitup/dist/mixitup.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
